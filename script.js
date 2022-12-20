@@ -68,8 +68,6 @@ if (this.hash !== '') {
 }
 });
 
-// ------------
-
 
 // CONTACT FORM
 const createForm = document.getElementById('create-form')
@@ -144,9 +142,9 @@ rightSide.addEventListener('mouseleave', () => {
 					category: 'FRONT-END PROJECT',
 					title: "PORTFOLIO WEBSITE",
 					img:  "media/images/projects/portfolio.JPG",
-					link: "https://www.youtube.com/watch?v=u20TmPII8eE&ab_channel=Nas-Topic",
-					videoLink: "media/video/01_burpline_website.mp4",
-					gitLink: "here",
+					link: "https://afamjoesite.com/",
+					videoLink: "media/video/03_portfolio.mp4",
+					gitLink: "https://github.com/AfamJOE/My_Portfolio_Website/tree/master",
 					folderLink:"02_portfolio",
 					briefLink:'media/images/brief/02_portfolio/portfolio_brief.jpg',
 
@@ -315,7 +313,7 @@ rightSide.addEventListener('mouseleave', () => {
 				`
 				scrumList.appendChild(scrumItem)
 				
-				// SCRUM - VIDEO POPUP
+				// SCRUM -- VIDEO POPUP
 				
 			
 					 const scrum_btn = document.getElementById(`${index}btn01`);
@@ -337,7 +335,7 @@ rightSide.addEventListener('mouseleave', () => {
 						scrumVideoContainer.classList.remove('show');
 						scrumStopVideo.pause()
 					});
-         
+        
 
 					}
 					

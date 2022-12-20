@@ -135,10 +135,6 @@ input[class^='btn-']:hover {
 	text-transform: uppercase;
 }
 
-/* section {
-	height: 100%;
-	padding-bottom: 6.5rem;
-} */
 
 .items-container {
 	display: grid;
@@ -838,10 +834,8 @@ img {
 		height: 35px;
 	}
 	.cert{
-	 /* background-color: blue; */
 	 min-width: 100px;
 	 padding: 10px;
-	 /* border: 1px solid black; */
 	}
 }
 
@@ -909,7 +903,6 @@ iframe {
 	display: flex;
   width: 400px;
 	list-style: none;
-	/* background-color: red; */
   justify-content: center;
 	align-items: center;
 }
@@ -933,7 +926,6 @@ iframe {
 
 .btn-height {
 	text-decoration: none;
-	/* padding: 5px 12px; */
 	margin: 10px;
 	width: 100px;
 }
